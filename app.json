@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "Manifest",
+    "slug": "manifest-tracker",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.salisall.manifest"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#F3EEFF",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false,
+      "package": "com.salisall.manifest"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "scheme": "manifest",
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
